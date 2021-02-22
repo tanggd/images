@@ -1,0 +1,23 @@
+{
+  "name": "images",
+  "version": "1.0.0",
+  "description": "github图床",
+  "main": "index.js",
+  "scripts": {
+    "init": "picpic init",
+    "build": "picpic build"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/tanggd/images.git"
+  },
+  "author": "tanggd <tanggd11@foxmail.com> (https://github.com/tanggd)",
+  "license": "MIT",
+  "bugs": {
+    "url": "https://github.com/tanggd/images/issues"
+  },
+  "homepage": "https://github.com/tanggd/images#readme",
+  "dependencies": {
+    "@matrixage/picpic": "^1.3.1"
+  }
+}
