@@ -5,7 +5,8 @@
   "main": "index.js",
   "scripts": {
     "init": "picpic init",
-    "build": "picpic build"
+    "build": "picpic build",
+    "deploy": "bash deploy.sh"
   },
   "repository": {
     "type": "git",
