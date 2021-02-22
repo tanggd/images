@@ -1,0 +1,93 @@
+<!DOCTYPE html>
+<html>
+
+      <head>
+            <title>PicPic</title>
+            <script>
+                  window.img_paths={"name":"assets","type":"directory","size":"163.74KB","children":[{"name":"blogImages","type":"directory","size":"120.49KB","children":[{"name":"1302481017-586cddaf83195_articlex.png","type":"file","extension":"png","size":"41.15KB","dimension":"588x475","path":"blogImages/1302481017-586cddaf83195_articlex.png"},{"name":"me.jpg","type":"file","extension":"jpg","size":"61.19KB","dimension":"478x477","path":"blogImages/me.jpg"},{"name":"table.png","type":"file","extension":"png","size":"17.96KB","dimension":"260x545","path":"blogImages/table.png"},{"name":"tgd.png","type":"file","extension":"png","size":"189B","dimension":"40x40","path":"blogImages/tgd.png"}]},{"name":"html-css-blog-imgs","type":"directory","size":"43.25KB","children":[{"name":"固定布局.png","type":"file","extension":"png","size":"28.34KB","dimension":"1920x601","path":"html-css-blog-imgs/固定布局.png"},{"name":"流式布局.png","type":"file","extension":"png","size":"14.91KB","dimension":"1368x450","path":"html-css-blog-imgs/流式布局.png"}]},{"name":"json","type":"directory","size":"0B"}]}
+            </script>
+      </head>
+
+      <script src='./libs/js/include.js'></script>
+
+      <link
+            rel="shortcut icon"
+            href="./favicon.ico"
+      >
+
+      <meta
+            name="viewport"
+            content="width=device-width, initial-scale=1, maximum-scale=1"
+      >
+
+      <style>
+            @import './components/Detail/index.css';
+@import './components/Empty/index.css';
+@import './components/FolderSelect/index.css';
+@import './components/Header/index.css';
+@import './components/ImgItems/index.css';
+@import './components/Msg/index.css';
+@import './components/Pagination/index.css';
+
+      </style>
+
+      <style>
+            @import './libs/css/atom.min.css';
+            @import './styles/init.css';
+            @import './styles/index.css';
+            @import './styles/mobile.css';
+      </style>
+
+      <body>
+            <div
+                  id="landing_wrap"
+                  class="landing_wrap w_100vw h_100vh border_box flex justify_center align_center fixed top_0 left_0 z_index_1000 bg_white transition_normal"
+            >
+                  <div class="landing flex flex_column align_center">
+                        <img
+                              class="logo_landing"
+                              src="./images/logo_picpic_black.png"
+                              alt="logo_picpic_black"
+                        >
+                  </div>
+            </div>
+            <div
+                  id="app"
+                  style="opacity: 0;"
+            >
+                  <div class="header_wrap_placeholder w_100"></div>
+                  <x-header></x-header>
+                  <x-img-items></x-img-items>
+                  <x-empty></x-empty>
+                  <x-detail></x-detail>
+                  <x-pagination></x-pagination>
+                  <x-msg></x-msg>
+                  <x-folder-select></x-folder-select>
+
+                  <include src="./components/Detail/index.html"></include>
+<include src="./components/Empty/index.html"></include>
+<include src="./components/FolderSelect/index.html"></include>
+<include src="./components/Header/index.html"></include>
+<include src="./components/ImgItems/index.html"></include>
+<include src="./components/Msg/index.html"></include>
+<include src="./components/Pagination/index.html"></include>
+
+            </div>
+      </body>
+
+      <script src='./libs/js/vue.min.js'></script>
+      <script src='./libs/js/lodash.chunk.js'></script>
+      <script src='./libs/js/lodash.throttle.js'></script>
+      <script src='./libs/js/clipboard.js'></script>
+      <script src='./index.js'></script>
+
+      <script src="./components/Detail/index.js"></script>
+<script src="./components/Empty/index.js"></script>
+<script src="./components/FolderSelect/index.js"></script>
+<script src="./components/Header/index.js"></script>
+<script src="./components/ImgItems/index.js"></script>
+<script src="./components/Msg/index.js"></script>
+<script src="./components/Pagination/index.js"></script>
+
+
+</html>
