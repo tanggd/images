@@ -6,6 +6,7 @@ set -e
 git init
 git add -A
 git commit -m 'deploy'
-git push -f git@github.com:tanggd/images.git main
+git push 
+# -f git@github.com:tanggd/images.git main
 
 cd -
